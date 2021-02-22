@@ -7,9 +7,9 @@ public class OperatorsPartTwo {
         //ввести 2 числа и символ с клавиатуры
         Scanner scanner = new Scanner(System.in);
         System.out.print("введите число x: ");
-        double x = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.print("введите число y: ");
-        double y = scanner.nextInt();
+        double y = scanner.nextDouble();
         System.out.print("введите арифметическое действие: ");
         String z = scanner.next();
         //калькулятор
