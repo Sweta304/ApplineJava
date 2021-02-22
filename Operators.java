@@ -7,11 +7,11 @@ public class Operators {
         //ввести 3 числа с клавиатуры
         Scanner scanner = new Scanner(System.in);
         System.out.print("введите число x: ");
-        int x = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.print("введите число y: ");
-        int y = scanner.nextInt();
+        double y = scanner.nextDouble();
         System.out.print("введите число z: ");
-        int z = scanner.nextInt();
+        double z = scanner.nextDouble();
         //среднее арифметическое x,y,z
         double avg = (x+y+z)/3;
         //деление среднего арифметического на 2 и округление вниз
@@ -22,4 +22,3 @@ public class Operators {
 
     }
 }
-
