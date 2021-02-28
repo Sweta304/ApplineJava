@@ -28,7 +28,6 @@ public class CircleThree {
         //выводим элементы массива, умноженные на среднее арифметическое
         System.out.println("Элементы массива: ");
         for (int k=0;k<length;k++) {
-            sum = sum + myArray[k];
             System.out.println(myArray[k] * avg);
         }
     }
