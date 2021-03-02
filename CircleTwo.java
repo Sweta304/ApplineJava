@@ -10,14 +10,17 @@ public class CircleTwo {
         int custom = scanner.nextInt();
 
         int sum=0;
+        int [] myArray = new int[custom+1];
+        int i=0;
 
-        int [] myArray = new int[custom];
-        for (int i=0;i<custom;++i){
+        do {
             myArray[i]=i;
             if(!(myArray[i] % 2 == 0)){
                 sum=sum+i;
             }
+            ++i;
         }
+        while (i<=custom);
         System.out.println("Сумма нечетных чисел до "+custom+" = "+sum);
     }
 }
