@@ -12,13 +12,13 @@ public class CircleFour {
         System.out.print("Введите число столбцов: ");
         int y = scanner.nextInt();
 
-        int[][] customArray = new int[x][y];
+        double[][] customArray = new double[x][y];
 
         //пользователь задает элементы массива
         for (int i=0;i<x;i++){
             for (int j=0;j<y;j++){
                 System.out.print("Введите ["+i+"]["+j+"] элемент массива: ");
-                customArray[i][j] = scanner.nextInt();
+                customArray[i][j] = scanner.nextDouble();
             }
         }
 
