@@ -12,16 +12,16 @@ public class DataTypesOne {
         int y = scanner.nextInt();
 
         //Приводим числа к одному типу
-        int x1 = Integer.parseInt(x);
+        double x1 = Double.parseDouble(x);
+
 
         //Выводим в консоль максимальное число
         System.out.print("Максимальное число: ");
         System.out.println(Math.max(x1,y));
 
-        //Преобразуем int в double и выводим в консоль
-        double min = Math.min(x1,y);
+        //Выводим в консоль минимальное число
         System.out.print("Минимальное число: ");
-        System.out.println(min);
+        System.out.println(Math.min(x1,y));
 
     }
 }
