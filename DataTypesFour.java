@@ -15,7 +15,7 @@ public class DataTypesFour {
         }
         System.out.println();
 
-        //вывод в консоль максимально и минимального элементов
+        //вывод в консоль максимального и минимального элементов
         int max = 0;
         int min = 0;
         for (int k=0;k<someArray.length;k++){
