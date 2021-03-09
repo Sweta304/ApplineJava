@@ -7,6 +7,7 @@ public class DataTypesFour {
         Random random = new Random();
 
         int[] someArray = new int[15];
+
         //вывод в консоль всех элементов массива
         for (int i = 0; i < someArray.length; i++) {
             int result = 20 - random.nextInt(40);
@@ -14,10 +15,10 @@ public class DataTypesFour {
             System.out.print(result+"; ");
         }
         System.out.println();
-
-        //вывод в консоль максимального и минимального элементов
-        int max = 0;
-        int min = 0;
+        
+        //вывод в консоль максимально и минимального элементов
+        int max = someArray[0];
+        int min = someArray[0];
         for (int k=0;k<someArray.length;k++){
             max = Math.max(max,someArray[k]);
             min = Math.min(min,someArray[k]);
