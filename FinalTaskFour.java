@@ -8,9 +8,11 @@ public class FinalTaskFour {
         String answer = null;
         boolean flag = false;//флаг на проверку правильности ответа
         boolean flagtrick = false;//флаг на проверку использования подсказки
+        System.out.println("Отгадай загадку: Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает");
 
         for (int i = 0; i < 3; i++) {
-            System.out.println("Отгадай загадку. Попытка " + (i + 1));
+            System.out.println();
+            System.out.println("Попытка " + (i + 1));
             answer = scanner.nextLine().toLowerCase();
             switch (answer) {
                 case ("заархивированный вирус"):
